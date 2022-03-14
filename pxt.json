@@ -1,0 +1,26 @@
+{
+    "name": "blue-audio-dl",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "IoT Exploration Input/Output Challenge": "github:plasticbandit/iot-inputoutput-challenge#e9dc61249af1f9c80973223030a857f8f6ebd60d"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
